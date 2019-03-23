@@ -5,7 +5,13 @@
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-router-dom": "5.0.0",
+    "superagent": "4.1.0",
+    "node-sass": "4.11.0",
+    "google-maps-react": "2.0.2",
+    "leaflet": "1.4.0",
+    "react-leaflet": "2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

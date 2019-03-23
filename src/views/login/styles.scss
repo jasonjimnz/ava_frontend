@@ -1,0 +1,64 @@
+div.login-container {
+  height: 100vh;
+  background-color: #f4bd98;
+  div.logo-container{
+    padding: 32px 0px;
+  }
+  div.image-container {
+    padding: 3em;
+    img.logo {
+      //width: 20%;
+      width:180px;
+      height: 170px
+    }
+    img.micro{
+      /*width: 300px;
+      height: 450px;*/
+      width: auto;
+      height: auto;
+    }
+  }
+  div.form-container{
+    width: 60vw;
+    display: flex;
+    margin: 0 auto;
+    height: 50vh;
+
+    div.form-card, div.micro-card{
+      width:50%;
+      display: flex;
+      img.micro{
+        width: 100%;
+        height: 100%;
+      }
+      form {
+        width: 100%;
+        .field{
+          label, button{
+            font-size: 1.3em;
+          }
+          .control{
+            padding: 0 52px;
+            input{
+              background-color: #d6e0e5 ;
+            }
+            textarea {
+              height: 25vh;
+            }
+          }
+        }
+      }
+    }
+    div.form-card {
+      align-items: center;
+      font-size: 1.3em;
+      background-color: #c5d2dc;
+    }
+    div.micro-card{
+      background-color: #d6e0e5;
+      div.image-container{
+        width: 100%;
+      }
+    }
+  }
+}

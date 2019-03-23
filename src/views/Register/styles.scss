@@ -1,0 +1,8 @@
+div.register-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  div.button-list, form.form{
+    width: 100%;
+  }
+}
